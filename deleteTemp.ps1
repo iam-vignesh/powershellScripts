@@ -1,4 +1,7 @@
-
+<#
+The script will take an input file path and start deleting the files and folders recursively WITHOUT ASKING ANY CONFIRMATION.
+Please use it with CAUTION and this is for educational purpose only.
+#>
 
 $fileNames =@()
 
