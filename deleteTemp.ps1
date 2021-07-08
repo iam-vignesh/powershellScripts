@@ -20,6 +20,6 @@ function Remove-Temp($filePath)
 
 }
 
-Write-Host "HANDLE with CAUTION. FILES WILL BE DELETED WITHOUT CONFIRMATION."
+Write-Warning "HANDLE with CAUTION. FILES WILL BE DELETED WITHOUT CONFIRMATION."
 $deletionLocation = Read-Host "Enter complete FILE PATH to delete temp. files"
 Remove-Temp($deletionLocation)
